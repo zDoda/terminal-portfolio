@@ -27,7 +27,7 @@ type Command = {
 }[];
 
 export const commands: Command = [
-  { cmd: "about", desc: "about Camdyn Zook", tab: 8 },
+  { cmd: "about", desc: "about Camdyn Zook", tab: 10 },
   { cmd: "clear", desc: "clear the terminal", tab: 8 },
   { cmd: "echo", desc: "print out anything", tab: 9 },
   { cmd: "education", desc: "my education background", tab: 4 },
@@ -36,7 +36,7 @@ export const commands: Command = [
   { cmd: "history", desc: "view command history", tab: 6 },
   { cmd: "projects", desc: "view projects that I've coded", tab: 5 },
   { cmd: "pwd", desc: "print current working directory", tab: 10 },
-  { cmd: "resume", desc: "check out my resume", tab: 6 },
+  { cmd: "resume", desc: "check out my resume", tab: 8 },
   { cmd: "socials", desc: "check out my social accounts", tab: 6 },
   { cmd: "themes", desc: "check available themes", tab: 7 },
   { cmd: "welcome", desc: "display hero section", tab: 6 },

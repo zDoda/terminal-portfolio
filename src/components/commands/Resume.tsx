@@ -4,12 +4,18 @@ import { Wrapper } from "../styles/Output.styled";
 import { termContext } from "../Terminal";
 
 const Resume: React.FC = () => {
+  const { history, rerender } = useContext(termContext);
 
-  window.open('/Camdyn_Zook_Resume.pdf', '_black')
+  /* ===== get current command ===== */
+  const currentCommand = _.split(history[0], " ");
+
+  if (rerender && currentCommand[0] === "resume" && currentCommand.length <= 1) {
+    window.open('/Camdyn_Zook_Resume.pdf', '_black')
+  }
 
   return (
     <Wrapper>
-      <a href="/Camdyn_Zook_Resume.pdf" target="_blank">Camdyn Zook Resume - Opens in new tab</a>
+      <p>Camdyn Zook Resume - camdynzook.dev/Camdyn_Zook_Resume.pdf</p>
     </Wrapper>
   );
 };

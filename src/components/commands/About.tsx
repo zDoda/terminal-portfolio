@@ -3,6 +3,9 @@ import {
   HighlightAlt,
   HighlightSpan,
 } from "../styles/About.styled";
+import { 
+  Cmd,
+} from "../styles/Welcome.styled";
 
 const About: React.FC = () => {
   return (
@@ -15,14 +18,13 @@ const About: React.FC = () => {
         Florida, USA.
       </p>
       <p>
-        I am passionate about automating redundant tasks, <br />
+        I am passionate about automating redundant tasks,
         cleaning data, and all things AI!
       </p>
       <p>
-        I currently work for  <HighlightAlt>Collins Aerospace</HighlightAlt> as a <br />
+        I currently work for  <HighlightAlt>Collins Aerospace</HighlightAlt> as a 
         Software Engineer. type <Cmd>resume</Cmd> for my full resume!
       </p>
-
     </AboutWrapper>
   );
 };
