@@ -1,13 +1,13 @@
 # Terminal Portfolio Website by Camdyn Zook
 
-![Terminal Portfolio Website by Camdyn Zook](/public/hosted_site.png)
+![Terminal Portfolio Website by Camdyn Zook](/public/site.png)
 
 ![ts](https://badgen.net/badge/Built%20With/TypeScript/blue?style=flat-square)
 ![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)
 
 My perfolio website in terminal version developed with React, TypeScript and Styled-Components. Multiple themes supported and keyboard shortcuts can be used for some functionalities.
 
-![Click here to go to camdynzook.dev](https://camdynzook.dev)
+[camdynzook.dev](https://camdynzook.dev)
 
 ## Features
 
