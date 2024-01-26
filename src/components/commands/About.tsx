@@ -18,6 +18,11 @@ const About: React.FC = () => {
         I am passionate about automating redundant tasks, <br />
         cleaning data, and all things AI!
       </p>
+      <p>
+        I currently work for  <HighlightAlt>Collins Aerospace</HighlightAlt> as a <br />
+        Software Engineer. type <Cmd>resume</Cmd> for my full resume!
+      </p>
+
     </AboutWrapper>
   );
 };

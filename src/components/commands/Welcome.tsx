@@ -38,7 +38,7 @@ const Welcome: React.FC = () => {
           `}
           </PreNameMobile>
         </PreWrapper>
-        <div>Welcome to my terminal portfolio. (Version 1.0.1)</div>
+        <div>Welcome to my terminal portfolio. (Version 1.0.3)</div>
         <Seperator>----</Seperator>
         <div>
           This project's source code can be found in this project's{" "}

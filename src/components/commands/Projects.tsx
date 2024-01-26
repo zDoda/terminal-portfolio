@@ -57,26 +57,26 @@ const projects = [
   {
     id: 1,
     title: "Blogo",
-    desc: "",
-    url: "",
+    desc: "Automated blog writer, written in Python",
+    url: "https://github.com/zDoda/Blogo",
   },
   {
     id: 2,
-    title: "",
-    desc: "",
-    url: "",
+    title: "WhatsApp Chatbot",
+    desc: "Uses OpenAI Assistants API, Twilio API, and a Flask backend",
+    url: "https://github.com/zDoda/chatbot_scripts/tree/main/whatsapp_bot",
   },
   {
     id: 3,
-    title: "",
-    desc: "",
-    url: "",
+    title: "Terminal-Portfolio",
+    desc: "React, Typescript 'terminal' that has commands to show my skills",
+    url: "https://github.com/zDoda/terminal-portfolio",
   },
   {
     id: 4,
-    title: "",
-    desc: "",
-    url: "/",
+    title: "wordp",
+    desc: "Wordpress API Command Line Interface, written in Golang",
+    url: "https://github.com/zDoda/wordp",
   },
 ];
 
